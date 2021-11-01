@@ -154,13 +154,43 @@ section > div{
     width: 90%;
 }
 .comp{
-    display:flex;
+    /*display:flex;*/
     flex-flow: row wrap;
     margin-bottom: 10px;
 }
 .comp p{
+    display:block;
     flex: 0 0 40%;
 }
+
+/*Compétences*/
+.compiut{
+    display:flex;
+    flex-flow: row wrap;
+    /*margin-bottom: 10px;*/
+    margin-top: 20px;
+}
+.elmt-comp{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    width: 185px;
+    display:block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: #1F1F1F;
+    border-radius: 5px;
+}
+.elmt-comp p{
+    margin-top: 15px;
+    text-align: center;
+}
+.elmt-comp img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80px;
+}
+
 .conteneur-barre{
     flex: 0 0 60%;
     border-radius: 5px;
