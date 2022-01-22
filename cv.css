@@ -296,6 +296,7 @@ section > div{
     .exp-info, .exp-desc{
         flex: 0 0 85%;
         margin-left: auto;
+        margin-top : 10;
     }
 
     .interet{
